@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сумма прописью</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  
+  <!-- number-for-string -> nfs -->
+  <div class="nfs">
+    <h1 class="nfs-title">Сумма прописью</h1>
+
+
+    <div class="nfs-date">
+      <input class="nfs-date__input" id="sum" type="number" placeholder="Введите сумму">
+      <input class="nfs-date__btn" type="button" value="Перевести" onclick="btn()">
+    </div>
+    <!-- /nfs-date -->
+
+
+    <div class="nfs-history">
+      <h2 class="nfs-history__title">История</h2>
+
+      <div class="nfs-history__info">*Нажмите на текст чтобы скопировать</div>
+
+      <div class="nfs-history__result">
+      </div>
+    </div>
+    <!-- /nfs-history -->
+  </div>
+  <!-- /nfs -->
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
